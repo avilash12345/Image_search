@@ -1,38 +1,105 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fd{
+  color: rgb(255, 145, 0);
+}
+.fd2{
+  color: rgb(241, 240, 239);
+}
+.fd1{
+  color: rgb(0, 247, 0);
+}
+.btn{
+  margin-top: 1rem;
+  margin-left: rem;
+}
+.btn1{
+  width: 6rem;
+  height: 2.5rem;
+  padding: auto;
+  border: 1.5px solid greenyellow;
+  background-color: mediumaquamarine;
+  font-weight: 600;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.container{
+  margin:auto;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn1:hover{
+border: 1.5px solid red;
+background-color: rgb(4, 0, 250);
+color:beige;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#input{
+  width: 28rem;
+  height: 2.4rem;
+  font-weight: bold;
+  font-size: 1rem;
+  outline: none;
+  border-bottom: 2px solid rgb(10, 234, 241);
+  background-color: rgb(32, 51, 51);
+  border-radius: 1rem;
+  padding: 0.2rem;
+  color: aliceblue;
+  text-align: center;
+  margin: auto;
+}
+#card1{
+  /*border: 1px solid red;*/
+  width: 18rem;
+  /*height: 23.3rem;*/
+  margin: auto;
+  border-radius: 0.4rem;
+  box-shadow: 3px 2px 0.5px rgba(247, 244, 244, 0.6);
+  background-color: rgb(88, 97, 88);
   display: flex;
-  flex-direction: column;
+
+}
+.main3{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+ 
+}
+#img{
+ /* width: 10rem;*/
+  height: 16rem;
+  margin: auto;
+ border-radius: 50%;
+  background-color: rgb(32, 51, 51);
 }
 
-.App-link {
-  color: #61dafb;
+/*.btn5>a{
+  color: rgb(19, 17, 16);
+  border: 1px solid rgb(77, 231, 30);
+  text-decoration: none;
+  border-radius: 0.4rem;
+  background-color: rgb(28, 129, 212);
+  font-weight: 600;
 }
+.btn5 :hover{
+  color: rgb(146, 123, 123);
+  background-color: darkblue;
+  border: 1px solid cyan;
+}*/
+  #bld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(214, 203, 166);
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media (max-width:468px) {
+
+  #input{
+    width: 18rem;}
+  
 }
