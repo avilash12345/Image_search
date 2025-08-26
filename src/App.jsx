@@ -32,7 +32,7 @@ function App() {
         <h1 className='fd2'><span className='fd'>IMAGE</span> SEARCH <span className='fd1'>APP</span></h1>
         <div className="input-group mb-3">
           <div className="container">
-            <input type="text" className="form-control text-center" placeholder="Find Recipes Name Here..." aria-label="Recipient's username" aria-describedby="button-addon2" onChange={updatedata} id='input' />
+            <input type="text" className="form-control text-center" placeholder="Find Images Here..." aria-label="Recipient's username" aria-describedby="button-addon2" onChange={updatedata} id='input' />
             <button className="btn btn-outline-primary mb-2" type="button" id="button-addon2" onClick={getdata}>Search</button>
           </div>
         </div>
