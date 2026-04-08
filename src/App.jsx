@@ -17,7 +17,7 @@ function App() {
   const getdata = async () => {
     const res = await fetch(`https://pixabay.com/api/?key=${API_KEY}&q=${data}&image_type=photo`)
     const showdata = await res.json();
-    console.log(showdata.hits)
+    //console.log(showdata.hits)
     setResult(showdata.hits)
   }
   const updatedata = (e) => {
